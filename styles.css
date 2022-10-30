@@ -1,3 +1,18 @@
 body {
   background-color: #f3ebe5;
 }
+.perfume {
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.title {
+  font-family: Fraunces;
+  font-weight: 700;
+}
+
+.description {
+  font-family: montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
