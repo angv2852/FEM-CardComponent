@@ -16,3 +16,13 @@ body {
   font-weight: 500;
   font-size: 14px;
 }
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: #ffff;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 45px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
