@@ -3,6 +3,8 @@ body {
 }
 
 .card-body {
+  padding: 12px 12px;
+  margin: 5px 5px;
 }
 
 .perfume {
@@ -27,6 +29,11 @@ body {
   color: hsl(228, 12%, 48%);
   font-weight: 500;
   font-size: 14px;
+  margin-top: 18px;
+}
+
+.prices {
+  padding: 20px 0;
 }
 
 .sale-price {
@@ -47,7 +54,7 @@ button {
   color: #ffff;
   display: block;
   margin: 0 auto;
-  padding: 10px 55px;
+  padding: 10px 60px;
   border-radius: 10px;
   border: white;
   font-weight: 700;
