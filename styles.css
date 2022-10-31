@@ -1,8 +1,13 @@
 body {
   background-color: #f3ebe5;
 }
+
+.card-body {
+}
+
 .perfume {
   font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 3px;
@@ -10,16 +15,31 @@ body {
 
 .title {
   font-family: Fraunces;
+  color: hsl(212, 21%, 14%);
   font-weight: 700;
-  font-size: 35px;
-  line-height: 35px;
-  margin: 15px 0;
+  font-size: 32px;
+  line-height: 30px;
+  margin: 10px 0px;
 }
 
 .description {
   font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
   font-weight: 500;
   font-size: 14px;
+}
+
+.sale-price {
+  font-family: Fraunces;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+}
+
+.old-price {
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+  text-decoration: line-through;
 }
 
 button {
@@ -27,7 +47,8 @@ button {
   color: #ffff;
   display: block;
   margin: 0 auto;
-  padding: 10px 45px;
+  padding: 10px 55px;
   border-radius: 10px;
   border: white;
+  font-weight: 700;
 }
